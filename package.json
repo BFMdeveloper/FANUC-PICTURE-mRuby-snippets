@@ -1,0 +1,37 @@
+{
+  "name": "fanovi-snippets",
+  "version": "0.0.1",
+  "description": "Inculde FANUC PICTURE mRuby snippets",
+  "publisher": "TracyPan",
+  "main": "index.js",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "keywords": [
+    "fanuc picture","fanovi"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFMdeveloper/FANUC-PICTURE-mRuby-snippets.git"
+  },
+  "author": "TracyPan",
+  "license": "ISC",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "ruby",
+        "path": "./snippets/fanovi-snippets.json"
+      }
+    ]
+  },
+  "homepage": "https://https://github.com/BFMdeveloper/FANUC-PICTURE-mRuby-snippets/blob/master/README.md"
+}
