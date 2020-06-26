@@ -1,0 +1,897 @@
+{
+	"absolute": {
+		"scope": "ruby",
+		"prefix": "absolute",
+		"body": [
+				"absolute(${1:axis})"
+		],
+		"description": "读绝对坐标"
+	},
+	
+	"absolute2": {
+		"scope": "ruby",
+		"prefix": "absolute2",
+		"body": [
+				"absolute2(${1:axis})"
+		],
+		"description": "读绝对坐标2"
+	},
+	"absolute3": {
+		"scope": "ruby",
+		"prefix": "absolute3",
+		"body": [
+				"absolute3(${1:axis})"
+		],
+		"description": "读绝对坐标3"
+	},
+	"accdecdly": {
+		"scope": "ruby",
+		"prefix": "accdecdly",
+		"body": [
+				"accdecdly(${1:axis})"
+		],
+		"description": "读加减速延迟"
+	},
+	"accdecdly3": {
+		"scope": "ruby",
+		"prefix": "accdecdly3",
+		"body": [
+				"accdecdly3(${1:axis})"
+		],
+		"description": "读加减速延迟3"
+	},
+	"acos": {
+		"scope": "ruby",
+		"prefix": "acos",
+		"body": [
+				"acos(${1:x})"
+		],
+		"description": "计算acos"
+	},
+	"actf": {
+		"scope": "ruby",
+		"prefix": "actf",
+		"body": [
+				"actf()"
+		],
+		"description": "读实际进给速度"
+	},
+	"actf3": {
+		"scope": "ruby",
+		"prefix": "actf3",
+		"body": [
+				"actf3()"
+		],
+		"description": "显示实际进给速度"
+	},
+	"acts": {
+		"scope": "ruby",
+		"prefix": "acts",
+		"body": [
+				"acts()"
+		],
+		"description": "读主轴实际速度"
+	},	
+	"acts2": {
+		"scope": "ruby",
+		"prefix": "acts2",
+		"body": [
+				"acts2(${1:spno})"
+		],
+		"description": "显示主轴实际速度"
+	},	
+	"adcnv": {
+		"scope": "ruby",
+		"prefix": "adcnv",
+		"body": [
+				"adcnv(${1:inptype},${2:avtype})"
+		],
+		"description": "读A/D转换数据"
+	},	
+	"alarm": {
+		"scope": "ruby",
+		"prefix": "alarm",
+		"body": [
+				"alarm()"
+		],
+		"description": "读报警状态"
+	},
+	"asin": {
+		"scope": "ruby",
+		"prefix": "asin",
+		"body": [
+				"asin(${1:x})"
+		],
+		"description": "计算asin"
+	},
+	"atan": {
+		"scope": "ruby",
+		"prefix": "atan",
+		"body": [
+				"atan(${1:x})"
+		],
+		"description": "计算atan"
+	},
+	"atan2": {
+		"scope": "ruby",
+		"prefix": "atan2",
+		"body": [
+				"atan2(${1:x},${2:y})"
+		],
+		"description": "计算atan2"
+	},
+	"ceil": {
+		"scope": "ruby",
+		"prefix": "ceil",
+		"body": [
+				"ceil(${1:x})"
+		],
+		"description": "向上取整"
+	},
+	"chgtxtmsg": {
+		"scope": "ruby",
+		"prefix": "chgtxtmsg",
+		"body": [
+				"chgtxtmsg(${1:id},${2:type})"
+		],
+		"description": "更换txtmsg文件"
+	},
+	"copyval": {
+		"scope": "ruby",
+		"prefix": "copyval",
+		"body": [
+				"copyval(${1:k1},${2:n1},${3:t1},${4:d1},${5:p1},${6:k2},${7:n2},${8:t2},${9:d2},${10:p2},${11:pmc},${12:add})"
+		],
+		"description": "批量复制变量"
+	},
+	"cos": {
+		"scope": "ruby",
+		"prefix": "cos",
+		"body": [
+				"cos(${1:x})"
+		],
+		"description": "计算cos"
+	},
+	"cosh": {
+		"scope": "ruby",
+		"prefix": "cosh",
+		"body": [
+				"cosh(${1:x})"
+		],
+		"description": "计算cosh"
+	},
+	"deltool": {
+		"scope": "ruby",
+		"prefix": "deltool",
+		"body": [
+				"deltool(${1:number},${2:datanum})"
+		],
+		"description": "删除刀具管理数据"
+	},
+	"diagnoss": {
+		"scope": "ruby",
+		"prefix": "diagnoss",
+		"body": [
+				"diagnoss(${1:number},${2:axis},${3:length})"
+		],
+		"description": "读诊断数据"
+	},
+	"distance": {
+		"scope": "ruby",
+		"prefix": "distance",
+		"body": [
+				"distance(${1:axis})"
+		],
+		"description": "读剩余移动量"
+	},
+	"distance3": {
+		"scope": "ruby",
+		"prefix": "distance3",
+		"body": [
+				"distance3(${1:axis})"
+		],
+		"description": "显示剩余移动量"
+	},
+	"errno": {
+		"scope": "ruby",
+		"prefix": "errno",
+		"body": [
+				"errno()"
+		],
+		"description": "获得逻辑计算错误"
+	},
+	"exp": {
+		"scope": "ruby",
+		"prefix": "exp",
+		"body": [
+				"exp(${1:x})"
+		],
+		"description": "取指数"
+	},
+	"fabs": {
+		"scope": "ruby",
+		"prefix": "fabs",
+		"body": [
+				"fabs(${1:x})"
+		],
+		"description": "取绝对值"
+	},
+	"fetchtool": {
+		"scope": "ruby",
+		"prefix": "fetchtool",
+		"body": [
+				"fetchtool(${1:number},${2:datanum})"
+		],
+		"description": "安装刀具管理数据"
+	},
+	"floor": {
+		"scope": "ruby",
+		"prefix": "floor",
+		"body": [
+				"floor(${1:x})"
+		],
+		"description": "向下取整"
+	},
+	"fmod": {
+		"scope": "ruby",
+		"prefix": "fmod",
+		"body": [
+				"fmod(${1:x},${2:y})"
+		],
+		"description": "取余数"
+	},
+	"frexp_exponent": {
+		"scope": "ruby",
+		"prefix": "frexp_exponent",
+		"body": [
+				"frexp_exponent(${1:x})"
+		],
+		"description": "求指数"
+	},
+	"frexp_mantissa": {
+		"scope": "ruby",
+		"prefix": "frexp_mantissa",
+		"body": [
+				"frexp_mantissa(${1:x})"
+		],
+		"description": "求尾数"
+	},
+	"GetDrvVersion": {
+		"scope": "ruby",
+		"prefix": "GetDrvVersion",
+		"body": [
+				"GetDrvVersion()"
+		],
+		"description": "获得驱动版本号"
+	},
+	"getmacval": {
+		"scope": "ruby",
+		"prefix": "getmacval",
+		"body": [
+				"getmacval(${1:number})"
+		],
+		"description": "获取变量值"
+	},
+	"getpath": {
+		"scope": "ruby",
+		"prefix": "getpath",
+		"body": [
+				"getpath(${1:type})"
+		],
+		"description": "获取路径号"
+	},
+	"idprogdel": {
+		"scope": "ruby",
+		"prefix": "idprogdel",
+		"body": [
+				"idprogdel(${1:kind},${2:datamum})"
+		],
+		"description": "程序删除-PMC"
+	},
+	"idprogsrch": {
+		"scope": "ruby",
+		"prefix": "idprogsrch",
+		"body": [
+				"idprogsrch(${1:kind},${2:datamum})"
+		],
+		"description": "程序搜索-PMC"
+	},
+	"idrdmac": {
+		"scope": "ruby",
+		"prefix": "idrdmac",
+		"body": [
+				"idrdmac(${1:kind},${2:datamum})"
+		],
+		"description": "读用户宏变量-PMC"
+	},
+	"idrdpmac2": {
+		"scope": "ruby",
+		"prefix": "idrdpmac2",
+		"body": [
+				"idrdpmac2(${1:kind},${2:datamum})"
+		],
+		"description": "读P-code变量-PMC"
+	},
+	"idrdpmc": {
+		"scope": "ruby",
+		"prefix": "idrdpmc",
+		"body": [
+				"idrdpmc(${1:kind},${2:datamum})"
+		],
+		"description": "读地址-PMC"
+	},
+	"idrdpmcb": {
+		"scope": "ruby",
+		"prefix": "idrdpmcb",
+		"body": [
+				"idrdpmcb(${1:kind},${2:datamum})"
+		],
+		"description": "读地址位-PMC"
+	},
+	"idrdset2": {
+		"scope": "ruby",
+		"prefix": "idrdset2",
+		"body": [
+				"idrdset2(${1:kind},${2:datamum})"
+		],
+		"description": "读参数-PMC"
+	},
+	"idrdtofs2": {
+		"scope": "ruby",
+		"prefix": "idrdtofs2",
+		"body": [
+				"idrdtofs2(${1:kind},${2:datamum})"
+		],
+		"description": "读刀偏-PMC"
+	},
+
+	"idwrmac": {
+		"scope": "ruby",
+		"prefix": "idwrmac",
+		"body": [
+				"idwrmac(${1:kind},${2:datamum})"
+		],
+		"description": "写用户宏变量-PMC"
+	},
+	"idwrpmac2": {
+		"scope": "ruby",
+		"prefix": "idwrpmac2",
+		"body": [
+				"idwrpmac2(${1:kind},${2:datamum})"
+		],
+		"description": "写P-code变量-PMC"
+	},
+	"idwrpmc": {
+		"scope": "ruby",
+		"prefix": "idwrpmc",
+		"body": [
+				"idwrpmc(${1:kind},${2:datamum})"
+		],
+		"description": "写地址-PMC"
+	},
+	"idwrpmcb": {
+		"scope": "ruby",
+		"prefix": "idwrpmcb",
+		"body": [
+				"idwrpmcb(${1:kind},${2:datamum})"
+		],
+		"description": "写地址位-PMC"
+	},
+	"idwrset": {
+		"scope": "ruby",
+		"prefix": "idwrset",
+		"body": [
+				"idwrset(${1:kind},${2:datamum})"
+		],
+		"description": "写参数-PMC"
+	},
+	"idwrtofs": {
+		"scope": "ruby",
+		"prefix": "idwrtofs",
+		"body": [
+				"idwrtofs(${1:kind},${2:datamum})"
+		],
+		"description": "写刀偏-PMC"
+	},
+	"isnan": {
+		"scope": "ruby",
+		"prefix": "isnan",
+		"body": [
+				"isnan(${1:x})"
+		],
+		"description": "空值校验"
+	},
+	"ldexp": {
+		"scope": "ruby",
+		"prefix": "ldexp",
+		"body": [
+				"ldexp(${1:x},${2:exp})"
+		],
+		"description": "求x乘2的N次幂"
+	},
+	"loadtorq": {
+		"scope": "ruby",
+		"prefix": "loadtorq",
+		"body": [
+				"loadtorq(${1:motor},${2:axis},${3:coefficient},${4:deccnt})"
+		],
+		"description": "异常负载值"
+	},
+	"log": {
+		"scope": "ruby",
+		"prefix": "log",
+		"body": [
+				"log(${1:x})"
+		],
+		"description": "求2为底的对数"
+	},
+	"log10": {
+		"scope": "ruby",
+		"prefix": "log10",
+		"body": [
+				"log10(${1:x})"
+		],
+		"description": "求10为底的对数"
+	},
+	"machine": {
+		"scope": "ruby",
+		"prefix": "machine",
+		"body": [
+				"machine(${1:axis})"
+		],
+		"description": "读取机械坐标"
+	},
+	"machine3": {
+		"scope": "ruby",
+		"prefix": "machine3",
+		"body": [
+				"machine3(${1:axis})"
+		],
+		"description": "显示机械坐标"
+	},	
+	"modf_decimal": {
+		"scope": "ruby",
+		"prefix": "modf_decimal",
+		"body": [
+				"modf_decimal(${1:axis})"
+		],
+		"description": "取小数部分"
+	},
+	"modf_integer": {
+		"scope": "ruby",
+		"prefix": "modf_integer",
+		"body": [
+				"modf_integer(${1:axis})"
+		],
+		"description": "取整数部分"
+	},
+	"movrlap": {
+		"scope": "ruby",
+		"prefix": "movrlap",
+		"body": [
+				"movrlap(${1:axis},${2:unit},${3:pmc},${4:address})"
+		],
+		"description": "读取手动倍率"
+	},
+	"movrlap3": {
+		"scope": "ruby",
+		"prefix": "movrlap3",
+		"body": [
+				"movrlap3(${1:axis},${2:unit},${3:pmc},${4:address})"
+		],
+		"description": "读取手动倍率"
+	},
+	"msghis": {
+		"scope": "ruby",
+		"prefix": "msghis",
+		"body": [
+				"msghis(${1:bolck},${2:item},${3:linkout})"
+		],
+		"description": "获取历史信息数据"
+	},
+	"pow": {
+		"scope": "ruby",
+		"prefix": "pow",
+		"body": [
+				"pow(${1:x},${2:y})"
+		],
+		"description": "求x的y次幂"
+	},
+	"progdel": {
+		"scope": "ruby",
+		"prefix": "progdel",
+		"body": [
+				"progdel(${1:number},${2:pmc},${3:address})"
+		],
+		"description": "删除指定程序"
+	},
+	"progsrch": {
+		"scope": "ruby",
+		"prefix": "progsrch",
+		"body": [
+				"progsrch(${1:number},${2:pmc},${3:address})"
+		],
+		"description": "搜索指定程序"
+	},
+	"rd1length": {
+		"scope": "ruby",
+		"prefix": "rd1length",
+		"body": [
+				"rd1length(${1:grpnum},${2:toolnum})"
+		],
+		"description": "按刀具号读长度补偿"
+	},
+	"rd1radius": {
+		"scope": "ruby",
+		"prefix": "rd1radius",
+		"body": [
+				"rd1radius(${1:grpnum},${2:toolnum})"
+		],
+		"description": "按刀具号读半径补偿"
+	},
+	"rd2length": {
+		"scope": "ruby",
+		"prefix": "rd2length",
+		"body": [
+				"rd2length(${1:grpnum},${2:tusenum})"
+		],
+		"description": "按刀具使用序号读长度补偿"
+	},
+	"rd2radius": {
+		"scope": "ruby",
+		"prefix": "rd2radius",
+		"body": [
+				"rd2radius(${1:grpnum},${2:tusenum})"
+		],
+		"description": "按刀具使用序号读半径补偿"
+	},
+	"rdalminfo": {
+		"scope": "ruby",
+		"prefix": "rdalminfo",
+		"body": [
+				"rdalminfo(${1:type},${2:almtype},${3:num},${4:pmc},${5:address})"
+		],
+		"description": "读报警信息"
+	},
+	"rdcount": {
+		"scope": "ruby",
+		"prefix": "rdcount",
+		"body": [
+				"rdcount(${1:number})"
+		],
+		"description": "读刀具寿命计数"
+	},
+	"rdcursor": {
+		"scope": "ruby",
+		"prefix": "rdcursor",
+		"body": [
+				"rdcursor(${1:type},${2:fix},${3:kind2},${4:address2},${5:kind3},${6:address3},${7:pmc},${8:address})"
+		],
+		"description": "读焦点号"
+	},
+	"rdcursor(": {
+		"scope": "ruby",
+		"prefix": "rdcursor(",
+		"body": [
+				"rdcursor(2,0,0,0,0,0,99,0)"
+		],
+		"description": "固定_读主画面焦点号"
+	},
+	"rdexecprog": {
+		"scope": "ruby",
+		"prefix": "rdexecprog",
+		"body": [
+				"rdexecprog(${1:block},${2:pmc},${3:address})"
+		],
+		"description": "读执行中程序"
+	},
+	"rdgrpid": {
+		"scope": "ruby",
+		"prefix": "rdgrpid",
+		"body": [
+				"rdgrpid(${1:number})"
+		],
+		"description": "读刀具寿命组号"
+	},
+	"rdlife": {
+		"scope": "ruby",
+		"prefix": "rdlife",
+		"body": [
+				"rdlife(${1:number})"
+		],
+		"description": "读刀具寿命值"
+	},
+	"rdmacro": {
+		"scope": "ruby",
+		"prefix": "rdmacro",
+		"body": [
+				"rdmacro(${1:number},${2:pmc},${3:address})"
+		],
+		"description": "读用户宏变量"
+	},
+	"rdmemsize": {
+		"scope": "ruby",
+		"prefix": "rdmemsize",
+		"body": [
+				"rdmemsize(${1:kind})"
+		],
+		"description": "读DRAM空间"
+	},
+	"rdmodal": {
+		"scope": "ruby",
+		"prefix": "rdmodal",
+		"body": [
+				"rdmodal(${1:type},${2:block},${3:inp},${4:pmc},${5:address})"
+		],
+		"description": "读模态信息"
+	},
+	"rdncstats": {
+		"scope": "ruby",
+		"prefix": "rdncstats",
+		"body": [
+				"rdncstats(${1:kind})"
+		],
+		"description": "读CNC状态"
+	},
+	"rdngrp": {
+		"scope": "ruby",
+		"prefix": "rdngrp",
+		"body": [
+				"rdngrp()"
+		],
+		"description": "读刀具组总数"
+	},
+	"rdntool": {
+		"scope": "ruby",
+		"prefix": "rdntool",
+		"body": [
+				"rdntool(${1:number})"
+		],
+		"description": "读指定刀具组号码"
+	},
+	"rdopmsg": {
+		"scope": "ruby",
+		"prefix": "rdopmsg",
+		"body": [
+				"rdopmsg(${1:number},${2:pmc},${3:address})"
+		],
+		"description": "读操作履历到PMC"
+	},
+	"rdopmsg2": {
+		"scope": "ruby",
+		"prefix": "rdopmsg2",
+		"body": [
+				"rdopmsg2(${1:mode},${2:number},${3:pmc},${4:address})"
+		],
+		"description": "读用户操作履历到PMC"
+	},
+	"rdpitchr": {
+		"scope": "ruby",
+		"prefix": "rdpitchr",
+		"body": [
+				"rdpitchr(${1:number})"
+		],
+		"description": "读螺补数据"
+	},
+	"rdpmacro": {
+		"scope": "ruby",
+		"prefix": "rdpmacro",
+		"body": [
+				"rdpmacro(${1:type},${2:num})"
+		],
+		"description": "读P-code变量"
+	},
+	"rdpmc": {
+		"scope": "ruby",
+		"prefix": "rdpmc",
+		"body": [
+				"rdpmc(${1:adrtype},${2:snumber},${3:datatype})"
+		],
+		"description": "读PMC"
+	},
+	"rdpmcb": {
+		"scope": "ruby",
+		"prefix": "rdpmcb",
+		"body": [
+				"rdpmcb(${1:adrtype},${2:snumber},${3:bitpos})"
+		],
+		"description": "读PMC位"
+	},
+	"rdpmcbr": {
+		"scope": "ruby",
+		"prefix": "rdpmcbr",
+		"body": [
+				"rdpmcbr(${1:adrtype},${2:snumber},${3:pos},${4:len},${5:data},${6:type},${7:adrtype2},${8:snumber2},${9:pmc},${10:address})"
+		],
+		"description": "PMC按位操作"
+	},
+	"rdpmcreal": {
+		"scope": "ruby",
+		"prefix": "rdpmcreal",
+		"body": [
+				"rdpmcreal(${1:adrtype},${2:snumber},${3:datatype})"
+		],
+		"description": "以实数型读PMC"
+	},
+	"rdprgdir": {
+		"scope": "ruby",
+		"prefix": "rdprgdir",
+		"body": [
+				"rdprgdir(${1:type},${2:sprg},${3:eprg},${4:pmc},${5:address})"
+		],
+		"description": "读范围程序列表"
+	},
+	"rdprgdir2": {
+		"scope": "ruby",
+		"prefix": "rdprgdir2",
+		"body": [
+				"rdprgdir2(${1:type},${2:num},${3:pmc},${4:address})"
+		],
+		"description": "读程序列表"
+	},
+	"rdprgnum": {
+		"scope": "ruby",
+		"prefix": "rdprgnum",
+		"body": [
+				"rdprgnum(${1:type})"
+		],
+		"description": "读程序号"
+	},
+	"rdproginfo": {
+		"scope": "ruby",
+		"prefix": "rdproginfo",
+		"body": [
+				"rdproginfo(${1:type})"
+		],
+		"description": "读程序容量"
+	},
+	"rdprojsetting": {
+		"scope": "ruby",
+		"prefix": "rdprojsetting",
+		"body": [
+				"rdprojsetting(${1:mainitem},${2:subitem},${3:kind},${4:datanum},${5:datasize},${6:pmc},${7:address})"
+		],
+		"description": "读以太网设定"
+	},
+	"rdseqnum": {
+		"scope": "ruby",
+		"prefix": "rdseqnum",
+		"body": [
+				"rdseqnum()"
+		],
+		"description": "读行号"
+	},
+	"rdspload": {
+		"scope": "ruby",
+		"prefix": "rdspload",
+		"body": [
+				"rdspload(${1:spno})"
+		],
+		"description": "读主轴负载"
+	},
+	"rdstr": {
+		"scope": "ruby",
+		"prefix": "rdstr",
+		"body": [
+				"rdstr(${1:kind},${2:snumber},${3:first},${4:count},${5:pmc},${6:address})"
+		],
+		"description": "读字符串"
+	},
+	"rdtofs": {
+		"scope": "ruby",
+		"prefix": "rdtofs",
+		"body": [
+				"rdtofs(${1:number},${2:type})"
+		],
+		"description": "读刀偏"
+	},
+	"rdtofs3": {
+		"scope": "ruby",
+		"prefix": "rdtofs3",
+		"body": [
+				"rdtofs3(${1:number},${2:type})"
+		],
+		"description": "显示刀偏"
+	},
+	"rdtool": {
+		"scope": "ruby",
+		"prefix": "rdtool",
+		"body": [
+				"rdtool(${1:number},${2:id})"
+		],
+		"description": "读刀具管理数据"
+	},
+	"rdzofs": {
+		"scope": "ruby",
+		"prefix": "rdzofs",
+		"body": [
+				"rdzofs(${1:number},${2:axis})"
+		],
+		"description": "读工件坐标系偏置"
+	},
+	"rdzofs3": {
+		"scope": "ruby",
+		"prefix": "rdzofs3",
+		"body": [
+				"rdzofs3(${1:number},${2:axis})"
+		],
+		"description": "显示工件坐标系偏置"
+	},
+	"relative": {
+		"scope": "ruby",
+		"prefix": "relative",
+		"body": [
+				"relative(${1:axis})"
+		],
+		"description": "读相对坐标"
+	},
+	"relative2": {
+		"scope": "ruby",
+		"prefix": "relative2",
+		"body": [
+				"relative2(${1:axis})"
+		],
+		"description": "读相对坐标"
+	},
+	"relative3": {
+		"scope": "ruby",
+		"prefix": "relative3",
+		"body": [
+				"relative3(${1:axis})"
+		],
+		"description": "显示相对坐标"
+	},
+
+
+
+
+
+
+
+
+
+
+
+	"wrparam": {
+		"scope": "ruby",
+		"prefix": "wrparam",
+		"body": [
+				"wrparam(${1:参数号},${2:轴号},${3:数据长度},${4:值},${5:99},${6:0})"
+		],
+		"description": "写参数"
+	},	
+	"wrpmcb": {
+		"scope": "ruby",
+		"prefix": "wrpmcb",
+		"body": [
+			"wrpmcb(:${1:符号}:,${2:值})"
+		],
+		"description": "写PMC位"
+	},
+	"wrpmacro": {
+		"scope": "ruby",
+		"prefix": "wrpmacro",
+		"body": [
+			"wrpmacro(:${1:符号}:,:${2:值}:,0)"
+		],
+		"description": "写P-CODE"
+	},		
+	"rdparam":{
+		"scope": "ruby",
+		"prefix": "rdparam",
+		"body": [
+			"rdparam(${1:参数号},${2:轴号},${3:数据长度})"
+		],
+		"description": "读参数"
+	},
+	"ARG[]":{
+		"scope": "ruby",
+		"prefix": "if ARG[",
+		"body": [
+			"if ARG[${1:0}] == ${2:节号} then",
+				"$0",
+			"end"
+		],
+		"description": "ARG[] 脚本分节"
+	}
+}
