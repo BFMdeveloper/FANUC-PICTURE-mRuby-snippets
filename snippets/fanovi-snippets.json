@@ -884,6 +884,17 @@
 		],
 		"description": "读参数"
 	},
+	"切换画面":{
+		"scope": "ruby",
+		"prefix": "swcreen(",
+		"body": [
+			":${1:符号}: = 4353",
+        	"swscreen(0, 100 + :${1:符号}(1):, :${1:符号}(2):, 0, 99, 0)"   
+		],
+		"description": "脚本切换画面"
+	},
+
+
 	"ARG[]":{
 		"scope": "ruby",
 		"prefix": "if ARG[",
