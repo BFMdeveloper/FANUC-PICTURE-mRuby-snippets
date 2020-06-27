@@ -841,17 +841,342 @@
 		],
 		"description": "显示相对坐标"
 	},
-
-
-
-
-
-
-
-
-
-
-
+	"remove_handler": {
+		"scope": "ruby",
+		"prefix": "remove_handler",
+		"body": [
+				"remove_handler(${1:sno},${2:type},${3:arg1},${4:arg2},${5:arg3})"
+		],
+		"description": "取消时间脚本关联"
+	},
+	"scroll": {
+		"scope": "ruby",
+		"prefix": "scroll",
+		"body": [
+				"scroll(${1:id},${2:type},${3:arg1},${4:arg2})"
+		],
+		"description": "滚动显示信息"
+	},
+	"set_handler": {
+		"scope": "ruby",
+		"prefix": "set_handler",
+		"body": [
+				"set_handler(${1:sno},${2:type},${3:arg1},${4:arg2},${5:arg3})"
+		],
+		"description": "关联时间脚本"
+	},
+	"setdecimal": {
+		"scope": "ruby",
+		"prefix": "setdecimal",
+		"body": [
+				"setdecimal(${1:dec})"
+		],
+		"description": "设置小数点位数"
+	},
+	"seterrno": {
+		"scope": "ruby",
+		"prefix": "seterrno",
+		"body": [
+				"seterrno(${1:no})"
+		],
+		"description": "设置错误代码"
+	},
+	"setmacval": {
+		"scope": "ruby",
+		"prefix": "setmacval",
+		"body": [
+				"setmacval(${1:number},${2:value})"
+		],
+		"description": "写宏变量"
+	},
+	"setmaxlimit": {
+		"scope": "ruby",
+		"prefix": "setmaxlimit",
+		"body": [
+				"setmaxlimit(${1:max})"
+		],
+		"description": "设定最大值"
+	},
+	"setminlimit": {
+		"scope": "ruby",
+		"prefix": "setminlimit",
+		"body": [
+				"setminlimit(${1:min})"
+		],
+		"description": "设定最小值"
+	},
+	"setpath": {
+		"scope": "ruby",
+		"prefix": "setpath",
+		"body": [
+				"setpath(${1:path})"
+		],
+		"description": "设定系统路径"
+	},
+	"setproperty": {
+		"scope": "ruby",
+		"prefix": "setproperty",
+		"body": [
+				"setproperty(${1:type1},${2:type2},${3:arg1},${4:arg2},${5:arg3},${6:arg4},${7:arg5},${8:arg6},${9:arg7},${10:arg8},${11:arg9},${12:arg10})"
+		],
+		"description": "设定控件属性"
+	},
+	"setrdprgtop": {
+		"scope": "ruby",
+		"prefix": "setrdprgtop",
+		"body": [
+				"setrdprgtop(${1:top})"
+		],
+		"description": "设定读程序列表的指针"
+	},
+	"settimer": {
+		"scope": "ruby",
+		"prefix": "settimer",
+		"body": [
+				"settimer(${1:type},${2:area},${3:address},${4:pmc},${5:address})"
+		],
+		"description": "预设时间"
+	},
+	"sin": {
+		"scope": "ruby",
+		"prefix": "sin",
+		"body": [
+				"sin(${1:x})"
+		],
+		"description": "求sin"
+	},
+	"sinh": {
+		"scope": "ruby",
+		"prefix": "sinh",
+		"body": [
+				"sinh(${1:x})"
+		],
+		"description": "求双曲sin"
+	},
+	"skip": {
+		"scope": "ruby",
+		"prefix": "skip",
+		"body": [
+				"skip(${1:axis})"
+		],
+		"description": "取跳转时坐标"
+	},
+	"skip3": {
+		"scope": "ruby",
+		"prefix": "skip3",
+		"body": [
+				"skip3(${1:axis})"
+		],
+		"description": "显示跳转时坐标"
+	},
+	"sleep": {
+		"scope": "ruby",
+		"prefix": "sleep",
+		"body": [
+				"sleep(${1:msec})"
+		],
+		"description": "暂停"
+	},
+	"sqrt": {
+		"scope": "ruby",
+		"prefix": "sqrt",
+		"body": [
+				"sqrt(${1:x})"
+		],
+		"description": "求根"
+	},
+	"srvdelay": {
+		"scope": "ruby",
+		"prefix": "srvdelay",
+		"body": [
+				"srvdelay(${1:axis})"
+		],
+		"description": "取伺服延迟"
+	},
+	"srvdelay3": {
+		"scope": "ruby",
+		"prefix": "srvdelay3",
+		"body": [
+				"srvdelay3(${1:axis})"
+		],
+		"description": "显示伺服延迟"
+	},
+	"statinfo": {
+		"scope": "ruby",
+		"prefix": "statinfo",
+		"body": [
+				"statinfo(${1:type})"
+		],
+		"description": "取CNC状态"
+	},
+	"swpath": {
+		"scope": "ruby",
+		"prefix": "swpath",
+		"body": [
+				"swpath(${1:systemtype},${2:pathnumber})"
+		],
+		"description": "切换路径"
+	},
+	"swscreen": {
+		"scope": "ruby",
+		"prefix": "swscreen",
+		"body": [
+				"swscreen(${1:type},${2:kind},${3:datanum},${4:default},${5:pmc},${6:address})"
+		],
+		"description": "切换画面"
+	},
+	"sysinfo": {
+		"scope": "ruby",
+		"prefix": "sysinfo",
+		"body": [
+				"sysinfo(${1:type})"
+		],
+		"description": "取CNC系统信息"
+	},
+	"t1info": {
+		"scope": "ruby",
+		"prefix": "t1info",
+		"body": [
+				"t1info(${1:grpnum},${2:toolnum})"
+		],
+		"description": "按刀具号取刀具状态"
+	},
+	"t2info": {
+		"scope": "ruby",
+		"prefix": "t2info",
+		"body": [
+				"t2info(${1:grpnum},${2:tusenum})"
+		],
+		"description": "按备刀顺序取刀具状态"
+	},
+	"tan": {
+		"scope": "ruby",
+		"prefix": "tan",
+		"body": [
+				"tan(${1:x})"
+		],
+		"description": "求tan"
+	},
+	"tanh": {
+		"scope": "ruby",
+		"prefix": "tanh",
+		"body": [
+				"tanh(${1:x})"
+		],
+		"description": "求双曲tan"
+	},
+	"toolnum": {
+		"scope": "ruby",
+		"prefix": "toolnum",
+		"body": [
+				"toolnum(${1:grpnum},${2:tusenum})"
+		],
+		"description": "按备刀顺序取刀具号"
+	},
+	"unfetchtool": {
+		"scope": "ruby",
+		"prefix": "unfetchtool",
+		"body": [
+				"unfetchtool()"
+		],
+		"description": "释放被拆除刀具的内存"
+	},
+	"wrcursor": {
+		"scope": "ruby",
+		"prefix": "wrcursor",
+		"body": [
+				"wrcursor(${1:type},${2:fix},${3:kind2},${4:address2},${5:kind3},${6:address3},${7:pmc},${8:address})"
+		],
+		"description": "写焦点号"
+	},
+	"wrmacro": {
+		"scope": "ruby",
+		"prefix": "wrmacro",
+		"body": [
+				"wrmacro(${1:number},${2:data1},${3:data2},${4:pmc},${5:address})"
+		],
+		"description": "写用户宏变量"
+	},
+	"wrpmc": {
+		"scope": "ruby",
+		"prefix": "wrpmc",
+		"body": [
+				"wrpmc(${1:adrtype},${2:snumber},${3:datatype},${4:data})"
+		],
+		"description": "写PMC"
+	},
+	"wrpmcb": {
+		"scope": "ruby",
+		"prefix": "wrpmcb",
+		"body": [
+			"wrpmcb(${1:adrtype},${2:sunmber},${3:bitpos},${4:data})"
+		],
+		"description": "写PMC位"
+	},
+	"wrpmcbr": {
+		"scope": "ruby",
+		"prefix": "wrpmcbr",
+		"body": [
+				"wrpmcbr(${1:adrtype},${2:snumber},${3:pos},${4:len},${5:data},${6:type},${7:adrtype2},${8:snumber2},${9:pmc},${10:address})"
+		],
+		"description": "PMC按位写操作"
+	},
+	"wrpmcreal": {
+		"scope": "ruby",
+		"prefix": "wrpmcreal",
+		"body": [
+				"wrpmcreal(${1:adrtype},${2:snumber},${3:datatype},${4:data})"
+		],
+		"description": "以实数型写PMC"
+	},
+	"wrprojsetting": {
+		"scope": "ruby",
+		"prefix": "wrprojsetting",
+		"body": [
+				"wrprojsetting(${1:mainitem},${2:subitem},${3:kind},${4:datanum},${5:datasize},${6:pmc},${7:address})"
+		],
+		"description": "写以太网设定"
+	},
+	"wrstr": {
+		"scope": "ruby",
+		"prefix": "wrstr",
+		"body": [
+				"wrstr(${1:kind},${2:snumber},${3:first},${4:count},${5:data},${6:pmc},${7:address})"
+		],
+		"description": "写字符串"
+	},
+	"wrtofs": {
+		"scope": "ruby",
+		"prefix": "wrtofs",
+		"body": [
+				"wrtofs(${1:number},${2:type},${3:data},${4:pmc},${5:address})"
+		],
+		"description": "写刀偏"
+	},
+	"wrtool": {
+		"scope": "ruby",
+		"prefix": "wrtool",
+		"body": [
+				"wrtool(${1:number},${2:id},${3:data})"
+		],
+		"description": "写刀具管理数据"
+	},
+	"scriptasync": {
+		"scope": "ruby",
+		"prefix": "scriptasync",
+		"body": [
+				"scriptasync(${1:sno},${2:arg0},${3:arg1},${4:arg2},${5:arg3},${6:arg4})"
+		],
+		"description": "异步脚本"
+	},
+	"set_handlerasync": {
+		"scope": "ruby",
+		"prefix": "set_handlerasync",
+		"body": [
+				"set_handlerasync(${1:sno},${2:type},${3:arg1},${4:arg2},${5:arg3})"
+		],
+		"description": "设定异步脚本"
+	},
 	"wrparam": {
 		"scope": "ruby",
 		"prefix": "wrparam",
@@ -860,13 +1185,13 @@
 		],
 		"description": "写参数"
 	},	
-	"wrpmcb": {
+	"wrpmcb(": {
 		"scope": "ruby",
-		"prefix": "wrpmcb",
+		"prefix": "wrpmcb(",
 		"body": [
 			"wrpmcb(:${1:符号}:,${2:值})"
 		],
-		"description": "写PMC位"
+		"description": "写PMC位-符号"
 	},
 	"wrpmacro": {
 		"scope": "ruby",
@@ -874,7 +1199,7 @@
 		"body": [
 			"wrpmacro(:${1:符号}:,:${2:值}:,0)"
 		],
-		"description": "写P-CODE"
+		"description": "写P-CODE-符号"
 	},		
 	"rdparam":{
 		"scope": "ruby",
@@ -884,6 +1209,11 @@
 		],
 		"description": "读参数"
 	},
+
+
+
+
+	
 	"切换画面":{
 		"scope": "ruby",
 		"prefix": "swcreen(",
