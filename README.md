@@ -14,6 +14,7 @@
 ## FANUC PICTURE 函数
 
 >   absolute(axis)
+
 >   absolute2(axis)
 
 >   absolute3(axis)
