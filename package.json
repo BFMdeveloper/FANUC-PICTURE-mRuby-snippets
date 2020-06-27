@@ -1,6 +1,6 @@
 {
   "name": "fanovi-snippets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Inculde FANUC PICTURE mRuby snippets",
   "publisher": "TracyPan",
   "main": "index.js",
@@ -8,7 +8,8 @@
     "vscode": "^1.18.0"
   },
   "keywords": [
-    "fanuc picture","fanovi"
+    "fanuc picture",
+    "fanovi"
   ],
   "activationEvents": [
     "*"
