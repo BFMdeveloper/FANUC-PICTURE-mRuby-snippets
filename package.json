@@ -1,6 +1,6 @@
 {
   "name": "fanovi-snippets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Inculde FANUC PICTURE mRuby snippets",
   "publisher": "TracyPan",
   "main": "index.js",
